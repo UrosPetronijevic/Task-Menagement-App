@@ -1,0 +1,90 @@
+.btn-white {
+  color: #4b6cb7;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: ivory;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: #4b6cb7;
+  color: ivory;
+  transition: 0.7s;
+}
+
+.btn-blue {
+  color: ivory;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #4b6cb7;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: ivory;
+  color: #4b6cb7;
+  transition: 0.7s;
+}
+
+.btn-brown {
+  color: ivory;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #954535;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.btn-brown:hover {
+  background-color: #f4a460;
+  color: #954535;
+  transition: 0.7s;
+}
+
+.secret-btn {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  display: none;
+  width: 8rem;
+}
+
+.secret-btn p {
+  font-size: 1.6rem;
+}
+
+/*BIG BTNS*/
+
+@media (max-width: 1024px) {
+  .btn-brown {
+    font-size: 1rem;
+  }
+
+  .btn-white {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .secret-btn {
+    display: block;
+    z-index: 3;
+  }
+}
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,14 @@
+.preview-task {
+  background-color: #4b6cb7;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  color: ivory;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.preview-task p {
+  margin-right: 2rem;
+}

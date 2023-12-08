@@ -1,0 +1,33 @@
+.task {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background-color: ivory;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.completed {
+  display: flex;
+  font-size: 0.9rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.finished {
+  background-color: lightgreen;
+}
+
+@media (max-width: 1024px) {
+  .task {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .task input {
+    width: 20%;
+  }
+}
